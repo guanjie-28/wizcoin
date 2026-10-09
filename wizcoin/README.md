@@ -15,7 +15,16 @@ To install with pip on Windows, run:
 
 ## Quickstart Guide
 
-TODO - fill this in later
+Quickstart Guide
+-------------------
+
+Here's some example code demostrating how this module is used:
+
+    >>> import wizcoin
+    >>> coin = wizcoin.WizCoin(2, 5, 10)
+    '2g, 5s, 10k'
+    >>> coin.value()
+    1141
 
 ## Contribute
 
